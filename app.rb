@@ -12,11 +12,11 @@ get '/about' do
 end
 
 get '/visit' do
-    "Register"
+    erb :visit
 end
 
 get '/contacts' do
-    "Contacts"
+    erb :contacts
 end
 
 
@@ -24,7 +24,7 @@ end
 
 # 1 change "My Website" into "barbe Shop"
 # 2 add pages --> /about, /visit, /contacts,
-# 3
+# 3 switch "erb" to call-get info from relevant file
 # 4
 # 5
 # 6 
